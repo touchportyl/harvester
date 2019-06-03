@@ -2,7 +2,7 @@ gamerule commandBlockOutput false
 
 
 # add variables
-execute in minecraft:overworld in minecraft:overworld as @a at @s if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:diamond_hoe"}]}] run tag @s add diamond_hoe
+execute in minecraft:overworld as @a at @s if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:diamond_hoe"}]}] run tag @s add diamond_hoe
 execute in minecraft:overworld as @a at @s if entity @s[nbt={Inventory:[{id:"minecraft:wheat_seeds"}]}] run tag @s add wheat_seeds
 execute in minecraft:overworld as @a at @s if entity @s[nbt={Inventory:[{id:"minecraft:potato"}]}] run tag @s add potato
 execute in minecraft:overworld as @a at @s if entity @s[nbt={Inventory:[{id:"minecraft:carrot"}]}] run tag @s add carrot
