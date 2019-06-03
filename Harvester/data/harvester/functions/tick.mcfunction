@@ -30,7 +30,7 @@ execute as @a[gamemode=survival,tag=diamond_hoe,tag=potato,scores={rand_2=1..3}]
 execute as @a[gamemode=survival,tag=diamond_hoe,tag=potato,scores={rand_2=4}] at @s if block ~ ~ ~ minecraft:farmland if block ~ ~1 ~ minecraft:potatoes[age=7] if entity @s[scores={sneak_time=1..}] run clear @s minecraft:potato 2
 
 execute as @a[gamemode=survival,tag=diamond_hoe,tag=potato] at @s if block ~ ~ ~ minecraft:farmland if block ~ ~1 ~ minecraft:potatoes[age=7] if entity @s[scores={sneak_time=1..}] run setblock ~ ~1 ~ minecraft:potatoes[age=0] destroy
-execute as @a[gamemode=survival,tag=diamond_hoe,tag=!potato] at @s if block ~ ~ ~ minecraft:farmland if block ~ ~1 ~ minecraft:wheat[age=7] if entity @s[scores={sneak_time=1..}] run setblock ~ ~1 ~ minecraft:air destroy
+execute as @a[gamemode=survival,tag=diamond_hoe,tag=!potato] at @s if block ~ ~ ~ minecraft:farmland if block ~ ~1 ~ minecraft:potatoes[age=7] if entity @s[scores={sneak_time=1..}] run setblock ~ ~1 ~ minecraft:air destroy
 
 
 # carrot module
@@ -40,7 +40,7 @@ execute as @a[gamemode=survival,tag=diamond_hoe,tag=carrot,scores={rand_2=1..3}]
 execute as @a[gamemode=survival,tag=diamond_hoe,tag=carrot,scores={rand_2=4}] at @s if block ~ ~ ~ minecraft:farmland if block ~ ~1 ~ minecraft:carrots[age=7] if entity @s[scores={sneak_time=1..}] run clear @s minecraft:carrot 2
 
 execute as @a[gamemode=survival,tag=diamond_hoe,tag=carrot] at @s if block ~ ~ ~ minecraft:farmland if block ~ ~1 ~ minecraft:carrots[age=7] if entity @s[scores={sneak_time=1..}] run setblock ~ ~1 ~ minecraft:carrots[age=0] destroy
-execute as @a[gamemode=survival,tag=diamond_hoe,tag=!carrot] at @s if block ~ ~ ~ minecraft:farmland if block ~ ~1 ~ minecraft:wheat[age=7] if entity @s[scores={sneak_time=1..}] run setblock ~ ~1 ~ minecraft:air destroy
+execute as @a[gamemode=survival,tag=diamond_hoe,tag=!carrot] at @s if block ~ ~ ~ minecraft:farmland if block ~ ~1 ~ minecraft:carrots[age=7] if entity @s[scores={sneak_time=1..}] run setblock ~ ~1 ~ minecraft:air destroy
 
 
 # beetroot module
@@ -50,7 +50,7 @@ execute as @a[gamemode=survival,tag=diamond_hoe,tag=beetroot_seeds,scores={rand_
 execute as @a[gamemode=survival,tag=diamond_hoe,tag=beetroot_seeds,scores={rand_2=4}] at @s if block ~ ~ ~ minecraft:farmland if block ~ ~1 ~ minecraft:beetroots[age=3] if entity @s[scores={sneak_time=1..}] run clear @s minecraft:beetroot_seeds 2
 
 execute as @a[gamemode=survival,tag=diamond_hoe,tag=beetroot_seeds] at @s if block ~ ~ ~ minecraft:farmland if block ~ ~1 ~ minecraft:beetroots[age=3] if entity @s[scores={sneak_time=1..}] run setblock ~ ~1 ~ minecraft:beetroots[age=0] destroy
-execute as @a[gamemode=survival,tag=diamond_hoe,tag=!beetroot_seeds] at @s if block ~ ~ ~ minecraft:farmland if block ~ ~1 ~ minecraft:wheat[age=7] if entity @s[scores={sneak_time=1..}] run setblock ~ ~1 ~ minecraft:air destroy
+execute as @a[gamemode=survival,tag=diamond_hoe,tag=!beetroot_seeds] at @s if block ~ ~ ~ minecraft:farmland if block ~ ~1 ~ minecraft:beetroots[age=7] if entity @s[scores={sneak_time=1..}] run setblock ~ ~1 ~ minecraft:air destroy
 
 
 # harvest success feedback
