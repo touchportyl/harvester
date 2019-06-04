@@ -7,11 +7,12 @@
 - Has a 1/4 chance to take two seeds instead
 - Only harvests fully grown crops
 - Sound effects and particles
+- Multiplayer support
 
 # How to use
 - Crouch walk over a fully grown crop with a diamond hoe in your offhand
 
 # Future updates
-- Full support for multiplayer (currently not tested)
+- Nothing!
 
 ---
