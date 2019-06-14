@@ -13,6 +13,6 @@
 - Crouch walk over a fully grown crop with a diamond hoe in your offhand
 
 # Future updates
-- Nothing!
+- No planned updates
 
 ---
