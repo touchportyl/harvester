@@ -1,4 +1,4 @@
-# Harvester for Vanilla MC 1.14.2
+# Harvester for Vanilla MC 1.14.2 - 1.15.2
 - Code by [touchportal](https://github.com/touchportal/)
 
 # Features
@@ -13,6 +13,6 @@
 - Crouch walk over a fully grown crop with a diamond hoe in your offhand
 
 # Future updates
-- No planned updates
+- 3x3 harvesting
 
 ---
