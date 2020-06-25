@@ -1,4 +1,4 @@
-# Harvester v1.3 for Vanilla MC 1.14.2 - 1.16 [20w21a]
+# Harvester v1.3 for Vanilla MC 1.14.2 - 1.16.1
 - Code by [touchportal](https://github.com/touchportal/)
 
 # Features
