@@ -1,4 +1,4 @@
-# Harvester v3.02.02 for Vanilla MC 1.14.X - 1.20.X
+# Harvester v3.02.03 for Vanilla MC 1.14.X - 1.20.X
 - Code by [touchportyl](https://github.com/touchportyl/)
 
 # Features
