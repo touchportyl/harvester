@@ -1,25 +1,35 @@
-# Harvester v3.02.03 for Vanilla MC 1.14.X - 1.20.X
+# Harvester v3.03.01 for Vanilla MC 1.14.X - 1.21.X
 - Code by [touchportyl](https://github.com/touchportyl/)
 
 # Features
-- Additional utility for all hoes
-- Larger harvesting radius (up to 5x5 around you)
-- Replants automatically if you have seeds in your inventory (grants xp as well!)
-- Has a 25% chance to not use seeds when replanting (useful for crops like carrots)
+- Expands utility for all hoes
+- Harvest radius up to 5x5 around the player
+- Auto-replants crops if seeds are in your inventory (grants XP)
+- 25% seed refund chance when replanting (great for carrots and similar crops)
 - Only harvests fully grown crops
-- Sound effects and particles
-- Advancements
-- Server and multiplayer support
-- Supports Minecraft versions 1.14 to 1.20
+- [MC 1.17+] Hoes take durability damage when harvesting
+- Includes sound effects and particles
+- Advancements for progression
+- Configuration menu with easy toggles
+- Clean uninstall process
+- Full server & multiplayer support
+- Compatible with MC 1.14 to 1.21
 
 # How to use
-- Crouch walk by crops while holding a hoe
+- Crouch-walk near crops with a hoe in your main hand to harvest and replant
+
+# Configuration
+- Run `/trigger dm_config` to open the in-game config menu
+- Toggle settings with ✔ (enabled) or ✘ (disabled)
 
 # Officially Endorsed Datapacks (These datapacks unlock bonus features for Harvester)
 - [Tinkerer's Craft](https://github.com/touchportyl/tinkererscraft)
 
+# Known Issues
+- Hook for Tinkerer's Craft is currently broken
+
 # Future updates
-- Suggest more!
+- Suggestions welcome!
 
 
 ---
